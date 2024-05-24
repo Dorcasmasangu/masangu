@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inde.css">
+
+    <title>Document</title>
+    <style>
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+.container{
+
+
+    background-color: #01b8b0;
+    border-radius: 10px;
+    margin: 5px;
+    width: 350px;
+    align-items: start;
+    text-align: start;
+    padding: 25px;
+
+
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+    
+}
+span{
+    color: #01b8b0;
+    
+}
+
+
+
+.formulaire{
+    margin-left: 35px;
+    padding: 20px 15%;
+}
+.your{
+    display: grid;
+    grid-template-columns: 1fr 1fr;§
+    grid-gap:;
+    grid-template-rows: auto;
+}
+.subject{
+    grid-column: 1 / span 2;
+}
+textarea{
+    border: none;
+    border-bottom : 1px solid #01b8b0;
+    width: 300px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+p{
+    font-size: 12px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    position: relative;
+    
+}
+
+h1{
+    margin-right: 10%;
+    font-size: 20px;
+    
+}
+.boutc{
+    margin-left: 15%;
+}
+.get{
+    position: absolute;
+    top: 20%;
+    left: 27rem;
+}
+main{
+    flex: 1;
+    display: flex;
+    background-color: white;
+    position: relative;
+    top: -100px;
+    width: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+header{
+    background-color: #eafcfb;
+    width: 100%;
+    position: static;
+    padding: 5px 25px;
+    margin: 0;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;}
+
+.navbar a{
+    padding: 5px 10px;
+    margin-left: 5px;
+   
+}
+    
+    
+.bouton{
+    color: #01b8b0;
+    
+    
+}
+
+    </style>
+</head>
+<body>
+  
+    <header>
+        <nav>
+            <h1><span>MASANGU</span>Dorcas</h1>
+            <div class="navbar">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Service</a>
+                <a href="#">Success Stories</a>
+                <a href="#">Blog</a>
+                <input type="button" class="icontact" value="contact">
+            </div>
+
+        </nav>
+        <div class="get">
+            <h2>Get In Touch</h2>
+            <p>bienvenue  sur  votre blog  
+            </p>
+
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="contact">
+                <h3>contact information</h3>
+                <p>we'll create high-quality linkable content and build<br> at least 40 high-authority</p>
+
+            </div>
+            <div class="infocontact">
+                <ul>
+                    <li>+243904621893</li>
+                    <li>+243976537745</li>
+                  
+                </ul>
+            </div>
+            <div class="email">
+              <i class="bx bx-envelope" ></i>
+                <a href="">masangudorcas48@gmail.com</a>
+                
+            </div>
+            <div class="ville">
+              <i class="bx bx-map"></i>
+                <p>paris france</p>
+            </div>
+        </div>
+        <div class="formulaire">
+            <div class="your">
+                <input type="text" placeholder="Nom">
+                <input type="text" placeholder="email">
+                <input type="text" class="subject"  placeholder="subject">
+                
+            </div>
+            <div class="message">
+                <legend>Message</legend>
+                
+                <textarea name="" placeholder="whrite here your message" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="bouton">
+                <input type="submit" value="Send Message">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
